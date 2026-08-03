@@ -1,5 +1,6 @@
 # secure end to end encrypted chatting application
-***note: must read the challenges that i face during the project developement, also snap and shots of working project is down in , github not being able to render those images so please click on them and those images will gonna open seperately in the new tab***
+***note: must read the challenges that i face during the project developement, also snap and shots of working project is down in , github not being able to render those images so please click on them and those images will gonna open seperately in the new tab.***
+
 ***Thankyou***
 
 ## description:
@@ -61,4 +62,10 @@
 
 *users got disconnected *
 
+<img width="951" height="647" alt="snap5" src="https://github.com/user-attachments/assets/362af3c6-8863-4ad9-b780-16ffb1bddac7" />
 
+*as you can see here that user is trying to send message to the user that is not logged in or in other words we can say that "didn't existed"*
+
+<img width="1346" height="860" alt="snap-6" src="https://github.com/user-attachments/assets/66e833c8-4082-43ea-b36f-743b6484a3d7" />
+
+*in this you can see i initialized a 3rd client.py and from there entering 1st user's id but because of duplicacy it gets rejected*
