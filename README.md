@@ -1,6 +1,17 @@
 # secure end to end encrypted chatting application
 ***note: must read the challenges that i face during the project developement, also snap and shots of working project is down in , github not being able to render those images so please click on them and those images will gonna open seperately in the new tab.***
 
+index-
+1. description
+2. Features
+3. challanges that i faced
+4. snaps of working project
+5. system architecture (pending)
+6. workflow of code (status: pending , reason : too complex ... trying to make it less  complicative to write here but will gonna bring soon)
+
+
+
+
 ***Thankyou***
 
 ## description:
