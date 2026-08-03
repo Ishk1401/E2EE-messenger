@@ -31,13 +31,13 @@
 
 *Yes i used vibe coding for developing this project but it is not all vibe coding i faced errors and bugs also some inefficiency in the code that i fixed myself and also by doing more vibecoding...*
 
-- **session key race condition** (before it was just 1 channel for session key , one variable in which both sides session keys gets stored but then changed to sender's session key and receiver's seession key so both keys get stores in different variable and do not replace each other)
+- **session key race condition** (before it was just 1 variable for session key ,but this is a **two channel full duplex** system..... there was only one variable before in which both sides session keys gets stored but then changed to sender's session key and receiver's seession key so both keys get stores in different variable and do not replace each other)
 
-- **inefficiency in sharing public RSA key** (in server code it was sharing public key everytime the message is being send , which is of no use because public key is already shared to the other user while eestablishing the session between them by sharing session key, so i changed it to share only when session key is being share then on the other side user's client stores it in the receiver's session key variable on it's side)
+- **inefficiency in sharing public RSA key** (in server code it was sharing public key everytime the message is being send , which is of no use because public key is already shared to the other user while eestablishing the session between them by sharing session key, so i changed it to share only when session key is being share)
 
 - **small bugs in coding** - had to write manually for avoiding the spaces which gets when you copys the code
   
-- **upgrade related to print connected in the client code**- (here in this client code was being optimistic it was printing connected on the client side before server's registeration gets done, if servverr reject's the user's id because of reasons like duplicacy then also connected gets printed on the client side .... so to tackle this inefficiency i made some changes in the server's and client's code so that server can send the status of registration to the client and then client can print that status to the user on the screen, that if registration was successful or not is user'id is valid or not )
+- **upgrade related to print connected in the client code**- (here in this client code was being optimistic it was printing connected on the client side before server registeration of user's id gets done, if servverr reject's the user's id because of reasons like duplicacy then also connected gets printed on the client side .... so to tackle this inefficiency i made some changes in the server's and client's code so that server can send the status of registration to the client and then client can print that status to the user on the screen, that if registration was successful or not is user'id is valid or not )
 
 
 ## SNAPS OF WORKING PROJECT:
