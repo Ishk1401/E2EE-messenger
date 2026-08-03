@@ -14,6 +14,9 @@ index-
 
 ***Thankyou***
 
+----
+
+
 ## description:
 -  This is a python based , end to end encrypted terminal chat application over websockets
 
