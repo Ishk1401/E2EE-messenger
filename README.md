@@ -5,7 +5,7 @@
 ## description:
 -  This is a python based , end to end encrypted terminal chat application over websockets
 
-- this project demonstrates secure communication by utlizing RSA alogrithm for fast, authenticated message encryption . The Server acts purely as a router and public key directory
+- this project demonstrates secure communication by utlizing RSA alogrithm for session key exchange ,and AES-GCM for fast authenticated message encryption . The Server acts purely as a router and public key directory
 
 - server cannot read the contents of any messages
 
