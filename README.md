@@ -27,7 +27,7 @@
 3. Messages encrypted using AES-GCM
 4. Messages signed using RSA 
 
-## challenges that i face :
+## challenges that i faced:
 
 *Yes i used vibe coding for developing this project but it is not all vibe coding i faced errors and bugs also some inefficiency in the code that i fixed myself and also by doing more vibecoding...*
 
@@ -38,3 +38,23 @@
 - **small bugs in coding** - had to write manually for avoiding the spaces which gets when you copys the code
   
 - **upgrade related to print connected in the client code**- (here in this client code was being optimistic it was printing connected on the client side before server's registeration gets done, if servverr reject's the user's id because of reasons like duplicacy then also connected gets printed on the client side .... so to tackle this inefficiency i made some changes in the server's and client's code so that server can send the status of registration to the client and then client can print that status to the user on the screen, that if registration was successful or not is user'id is valid or not )
+
+
+## SNAPS OF WORKING PROJECT:
+
+<img width="1883" height="1034" alt="snap-1" src="https://github.com/user-attachments/assets/d09630e5-5902-4f93-ad83-88a97f36fc9c" />
+
+*server and client initialization*
+
+<img width="1853" height="1026" alt="snap-2" src="https://github.com/user-attachments/assets/4efc59e5-25ec-4cb1-b634-c77d16dc266b" />
+
+*users entering username/user's id*
+
+<img width="1919" height="1044" alt="snap-3" src="https://github.com/user-attachments/assets/30e3d2dd-8ac8-473a-8be3-302c7259b9ee" />
+
+*exchanging messages, server cannot see anything in plain text and only sees gibberish data logs*
+
+<img width="914" height="623" alt="snap-4" src="https://github.com/user-attachments/assets/c28bcf4b-a8e0-449e-8f92-85dbfb730416" />
+
+*users got disconnected *
+
